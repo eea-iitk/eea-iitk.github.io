@@ -1,0 +1,308 @@
+*{
+ padding: 0;
+ margin: 0;
+ }
+   /*NAVIGATION*/
+
+.navbar {
+	background-color: #333  !important;
+	text-transform:uppercase;
+	font-family: 'PT Sans Narrow',Arial,sans-serif;
+	font-weight: 700;
+}
+
+.navbar a {
+ 	color: #fff !important;
+ 	opacity: 0.7;
+ }
+
+.navbar a:hover {
+ 	opacity: 1;
+ 	background-color: #111111 !important;
+ }
+
+  /*NAVIGATION END*/
+
+
+/*loading*/
+#load{
+	display: table;
+	position: absolute;
+	width:100%;
+	height: 100%;
+	z-index: 5000;
+	background-image: url("images/bg2.jpg");
+	background-size: cover;
+	text-align: center;
+	font-size: 13em;
+	color: #cc3366;
+}
+#loader{
+	display:table-cell;
+	vertical-align: middle;
+
+}
+body {
+ overflow-x:hidden;
+ font-family: 'Open Sans', sans-serif;
+ text-rendering: optimizeLegibility !important;
+ -webkit-font-smoothing: antialiased !important;
+ }
+
+li {
+ list-style: none;
+ display: inline-block;
+ }
+
+a {
+ text-decoration:none;
+ transition: all 300ms ease-in-out;
+ }
+
+a:hover,a:active {
+ text-decoration: none;
+ }
+
+h1,h2,h4 {
+ font-family: 'PT Sans Narrow', Arial, sans-serif;
+ text-decoration:uppercase;
+ font-weight:700;
+ }
+
+p {
+ font-size:15px;
+ line-height:21px;
+ }
+
+.btn {
+ transition: all 300ms ease-in-out;
+ font-weight: 500 !important;
+ text-transform: uppercase;
+ }
+
+.btn:hover{
+	background-color: #ededed !important;
+	color:#3c3c3c !important;
+	border: 1px #fff solid !important;
+
+}
+
+
+
+  /*HEADER*/
+
+.header{
+	margin-top: 50px;
+	height: 100vh;
+	width: 100%;
+	background-color: #cc3366;
+}
+
+.header img{
+	margin-top: 20%;
+	margin-left: 30%;
+}
+
+@media(max-width: 768px)
+{
+	.header img{
+		margin-left: 5%;
+	}
+}
+
+  /*HEADER END*/
+
+  /*ABOUT*/
+
+.About{
+	padding: 80px 0 80px;
+	text-align: center;
+}
+
+.About h3{
+	font-family: 'Arial';
+}
+
+.About p{
+	font-size:14px;
+	padding-bottom: 40px;
+	color:#000;
+}
+
+.About i{
+	height: 80px;
+	width: 80px;
+	font-size: 30px;
+	padding: 25px 20px;
+	border-radius: 50%;
+	background-color: #6699cc;
+	color:#fff;
+}
+
+@media(max-width: 768px){
+
+ .services{
+ 	padding: 30px;
+ } 
+
+}
+  /*ABOUT END*/
+
+ /*Merchandise*/
+
+.Merchandise{
+	padding: 50px 0 80px;
+	text-align: center;
+	background-color: #3399ff;
+}
+
+.Merchandise h2,p{
+	color:#fff;
+}
+
+.Merchandise p{
+	padding-bottom: 40px;
+}
+
+.Merchandise .clothes{
+	padding: 30px;
+	border:1px solid #ccc;
+	background-color: #fff;
+	border-radius: 5px;
+	margin-top: 30px;
+}
+
+.clothes h1,h3{
+	color:#4c4c4c;
+}
+
+.clothes button{
+	margin-top: 8px;
+}
+
+@media(max-width: 768px)
+{
+	.Merchandise{
+		padding:10px;
+	}
+
+}
+
+ /*Merchandise End*/
+
+	/*Team*/
+
+.team{
+	padding: 50px 0 80px;
+	text-align: center;
+}
+
+.team h2,h4{
+	margin:20px 0 20px;
+	color:#4c4c4c;
+}
+
+.team p{
+	color:#737373;
+}
+
+.team img{
+	margin-top:80px;
+}
+
+.team i{
+	height:30px;
+	width:30px;
+	font-size:20px;
+	border-radius:50%;
+	background-color: #a0db8e;
+	padding: 5px;
+	color:white;
+}
+
+.team a:hover i{
+	background-color:#709963;
+}
+
+	/*Team Ends*/
+
+
+    /*Department Trip*/
+
+.Departmental-trip{
+	background-color: yellow;
+}
+
+.Departmental-trip h1{
+	text-align: center;
+}
+
+.Departmental-trip h2,h4{
+	margin:20px 0 20px;
+	color:#4c4c4c;
+	text-align: center;
+}
+
+    /*Department Trip Ends*/
+
+
+    /*Queries*/
+
+.Queries{
+	background-color: #3399ff;
+	padding: 50px 0 190px;
+}
+
+.Queries h1{
+	margin-top: 40px;
+	text-align: center;
+	padding: 10px;
+	color:white;
+}
+
+.Queries p{
+	font-size: 18px;
+	padding-bottom:80px;
+	font-weight: 500;
+	margin-top: 10%;
+}
+
+.Queries .input-group{
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+
+.Queries .btn{
+	background-color:#f00000;
+	color:white;
+	width:100%;
+	border-radius: 8px;
+}
+
+.Queries .btn:hover{
+	background-color: #a85959 !important;
+	color: white !important;
+}
+
+    /*Queries End*/
+
+
+    /*Contacts*/
+
+.Contacts{
+	padding:30px;
+	color:#ccc;
+	background-color:#222 ;
+}
+
+.Contacts i{
+	padding: 5px;
+	font-size: 20px;
+}
+
+.Contacts .social{
+	height:30px;
+	margin-bottom: 10px;
+	border:1px solid #ccc;
+}
+    /*Contacts End*/
